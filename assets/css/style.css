@@ -1,0 +1,29 @@
+h1, div, a {
+    font-family: monospace;
+}
+
+div {
+    margin: 10px;
+}
+
+.title {
+    display: grid;
+}
+
+.title h1, .title div {
+    text-align: center;
+}
+
+.main-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1%;
+}
+
+.main-body .left {
+    grid-column: 1;
+}
+
+.main-body .right {
+    grid-column: 2;
+}
